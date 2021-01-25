@@ -1,0 +1,19 @@
+package com.assignment4;
+
+public class EmployeeStock {
+	public void aragantStock() {
+		Object o = null;
+		if(o instanceof Employee) {
+			System.out.println(o.toString());
+		}
+		if(o instanceof Manager) {
+			System.out.println(o.toString());
+		}
+	}
+	public static void main(String[] args) {
+		EmployeeStock ems = new EmployeeStock();
+		Employee e = new Employee("employee", 1200);
+		Manager m = new Manager("manager", 13000);
+		ems.aragantStock();
+	}
+}

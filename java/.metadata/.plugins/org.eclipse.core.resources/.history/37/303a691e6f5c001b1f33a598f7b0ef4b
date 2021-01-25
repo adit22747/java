@@ -1,0 +1,10 @@
+package com.assignment4;
+
+public class EmployeeStock {
+	public void aragantStock() {
+		Object o = null;
+		if(o instanceof Employee) {
+			System.out.println(o.toString());
+		}
+	}
+}

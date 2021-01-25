@@ -1,0 +1,15 @@
+package com.assignment3;
+
+public class utility {
+
+	Printable p1[] = new Printable[2];
+	
+	public void printall(Printable[] p1) {
+		this.p1[0] = new Animal();
+		this.p1[1] = new shape();
+		p1[0].print();
+		p1[1].print();
+	}
+	
+	
+}

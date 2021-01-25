@@ -1,0 +1,12 @@
+package com.assignment3;
+
+public class utility implements Printable {
+	public static void main(String[] args) {
+		
+	}
+
+	public void print() {
+		
+		
+	}
+}

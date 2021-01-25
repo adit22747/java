@@ -1,0 +1,22 @@
+package com.assignment4;
+
+public class EmployeeStock {
+	public void aragantStock() {
+		Object o = null;
+		if(o instanceof Employee) {
+			System.out.println(o.toString());
+		}
+		else if(o instanceof Manager) {
+			System.out.println(o.toString());
+		}
+		else {
+			System.out.println("in else");
+		}
+	}
+	public static void main(String[] args) {
+		EmployeeStock ems = new EmployeeStock();
+		new Employee("employee", 1200);
+		new Manager("manager", 13000);
+		ems.aragantStock();
+	}
+}

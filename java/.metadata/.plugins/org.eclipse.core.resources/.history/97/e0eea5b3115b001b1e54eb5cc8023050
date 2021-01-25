@@ -1,0 +1,41 @@
+package com.assignment1;
+
+
+public class test {
+	protected int salary;
+	protected int days;
+	private int id;
+	private String name;
+	public test(int salary, int days, int id, String name) {
+		
+		this.salary = salary;
+		this.days = days;
+		this.id = id;
+		this.name = name;
+	}
+	
+	public int sal() {
+		return 0;
+	}
+}
+class manager extends test{
+	private int allowance;
+
+
+	public manager(int salary, int days, int id, String name,int allowance) {
+		super(salary, days, id, name);
+		this.allowance=allowance;
+	}
+
+	public int sal() {
+		int total=(salary*days)+allowance;
+		return total;
+	}
+
+	public String toString() {
+		return "manager [allowance=" + allowance + ", salary=" + salary
+				+ ", days=" + days + "]";
+	}
+	
+	
+}

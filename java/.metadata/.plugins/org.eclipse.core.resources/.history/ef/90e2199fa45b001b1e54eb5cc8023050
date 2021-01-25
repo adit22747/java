@@ -1,0 +1,12 @@
+package com.assignment1;
+
+public class User2 extends Thread {
+	public void run(){
+		try{
+			sleep(3*1000);
+		}catch(InterruptedException e){
+			System.err.println(e.getMessage());
+		}
+	}
+
+}

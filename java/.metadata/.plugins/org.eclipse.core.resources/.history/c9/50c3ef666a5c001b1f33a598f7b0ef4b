@@ -1,0 +1,9 @@
+package com.assignment3;
+
+public class Main {
+	public static void main(String[] args) {
+		utility util = new utility();
+		Printable p1[] = new Printable[2];
+		util.printall(p1);
+	}
+}

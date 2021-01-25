@@ -1,0 +1,19 @@
+package com.assignment3;
+
+import java.util.Scanner;
+
+public class digits {
+	public static void main(String[] args) {
+		System.out.println("enter value");
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
+		int sum=0,a=0;
+		while(number!=0){
+			a=number%10;
+			sum+=a;
+			number=number/10;
+		}
+		System.out.println(sum);
+		sc.close();
+	}
+}

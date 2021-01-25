@@ -1,0 +1,11 @@
+package com.assignment3;
+
+public class Main {
+	public static void main(String[] args) {
+		utility util = new utility();
+		Printable p1[] = new Printable[2];
+		p1[0]=new shape();
+		p1[1]=new Animal();
+		util.printall(p1);
+	}
+}

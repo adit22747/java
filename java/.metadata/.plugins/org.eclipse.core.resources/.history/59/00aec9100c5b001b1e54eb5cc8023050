@@ -1,0 +1,25 @@
+package com.assignment4;
+
+import java.util.Scanner;
+
+public class insert {
+	public static void main(String[] args) {
+		int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+		for (int i : my_array) {
+			System.out.print(i+" ");
+		}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter position");
+		int pos = sc.nextInt();
+		System.out.println("enter value");
+		int value = sc.nextInt();
+//		for(int i=my_array.length-1; i > pos; i--){
+//		    my_array[i] = my_array[i-1];
+//		}
+		my_array[pos] = value;
+		
+		for (int i : my_array) {
+			System.out.print(i+" ");
+		}
+	}
+}

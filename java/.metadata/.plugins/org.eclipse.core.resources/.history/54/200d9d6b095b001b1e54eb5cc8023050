@@ -1,0 +1,18 @@
+package com.assignment4;
+
+import java.util.Scanner;
+
+public class seperate {
+	public static void main(String[] args) {
+		System.out.println("enter value");
+		Scanner sc = new Scanner(System.in);
+		int temp = sc.nextInt();
+		int value;
+		while(temp>0){
+			value=temp%10;
+			System.out.print(value+" ");
+			temp=temp/10;
+		}
+		sc.close();
+	}
+}

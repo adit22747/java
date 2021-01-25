@@ -1,0 +1,16 @@
+package com.assignment6;
+
+import java.util.Scanner;
+
+public class area {
+	public static void main(String args[]) {
+
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Enter the radius of the Circle:");
+		double r = s.nextDouble();
+
+		double area = Math.PI*(r*r);
+		System.out.println("Area of Triangle is: " + area);
+	}
+}

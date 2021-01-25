@@ -1,0 +1,30 @@
+package com.assignment3;
+
+class Employee{
+	  public String employeeName;
+	  String address;
+	  protected int age;
+	  private double salary;
+
+	  void setSalary(double sal){
+	    salary = sal;
+	  }
+	  private double getSalary(){
+	    return salary;
+	  }
+	  void showDetails(){
+	    System.out.println("Employee's Name: "+employeeName);
+	    System.out.println("Employee's Address: "+address);
+	    System.out.println("Employee's Age: "+age);
+	  }
+	}
+
+	class AccessSpecifierDemo{
+	  public static void main(String args[]){
+	    Employee employee = new Employee();
+	    employee.employeeName = "Ronaldo";
+	    employee.address = "Portugal";
+	    employee.age = 29;
+	    employee.showDetails();
+	  }
+	}

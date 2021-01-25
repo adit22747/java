@@ -1,0 +1,16 @@
+package com.assignment3.allusers;
+
+import java.util.Scanner;
+
+import com.assignment3.utility.Calc;
+
+public class User1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a non negative number");
+		int value = sc.nextInt();
+		Calc cal = new Calc();
+		double result = cal.findRoot(value);
+		System.out.println("square root: " + result);
+	}
+}

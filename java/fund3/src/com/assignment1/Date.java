@@ -1,0 +1,15 @@
+package com.assignment1;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class Date {
+	public static void main(String[] args) {
+
+		Calendar calendar = Calendar.getInstance();
+		System.out.println("last date: "
+				+ calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+		System.out.println(formatter.format(calendar.getTime()));
+	}
+}

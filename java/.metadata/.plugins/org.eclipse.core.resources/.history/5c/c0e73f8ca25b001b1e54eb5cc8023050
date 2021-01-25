@@ -1,0 +1,8 @@
+package com.assignment1;
+
+public abstract class Main {
+	public abstract void respirate();
+	public abstract void talk();
+}
+
+

@@ -1,0 +1,9 @@
+package com.assignment;
+import java.util.Date;
+
+public class Date {
+	public static void main(String[] args){
+		Date objDate = new Date();
+		System.out.println(objDate.toString());
+	}
+}
