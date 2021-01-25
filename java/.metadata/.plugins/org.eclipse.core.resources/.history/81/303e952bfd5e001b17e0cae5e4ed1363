@@ -1,0 +1,31 @@
+package com.assignment2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Sorted {
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<>();
+		Employee e1 =new Employee(103,"dm101",36,123);
+		Employee e2 = new Employee(102,"dm102",37,12300);
+		Employee e3 = new Employee(101,"dm103",26,2222);
+		Employee e4 = new Employee(101,"dm103",26,2222);
+		try {
+			for (Employee employee : list) {
+				if(employee.equals(employee)) {
+					throw new employeeExist("employee already exist");
+				}
+			}
+		}catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+//		list.add(new Employee(103,"dm101",36,123));
+//		list.add(new Employee(102,"dm102",37,12300));
+//		list.add(new Employee(101,"dm103",26,2222));
+//		list.add(new Employee(104,"dm104",24,4000));
+//		list.add(new Employee(105,"dm105",22,6000));
+		
+		
+		
+	}
+}
