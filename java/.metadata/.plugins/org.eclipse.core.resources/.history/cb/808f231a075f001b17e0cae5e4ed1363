@@ -1,0 +1,17 @@
+package com.assignment3;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+	public static void main(String[] args) {
+		Map<String,Book> map = new HashMap<>();
+		
+		map.put("one",new Book("hello", 1));
+		map.put("two",new Book("world", 2));
+		
+		for (Map.Entry<String,Book> entry : map.entrySet())  
+            System.out.println("Key = " + entry.getKey() + 
+                             ", Value = " + entry.getValue()); 
+	}
+}

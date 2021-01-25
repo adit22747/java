@@ -1,0 +1,17 @@
+package com.assignment3;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+	public static void main(String[] args) {
+		Map<Book, String> map = new HashMap<>();
+		
+		Book book1 = new Book("hello", 1);
+		Book book2 = new Book("world", 2);
+		
+		map.put(book1.getName(),"one");
+		
+		
+	}
+}
