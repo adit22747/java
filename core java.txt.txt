@@ -1,0 +1,261 @@
+Core java
+adv java --> jsp,servlet
+junit --> unt testing
+log4j --> logging
+spring framework
+	1. spring core
+	2. spring mvc
+	3. spring data jpa
+	4. spring rest
+
+
+
+core java
+--> software setup
+--> jdk
+--> editor --> eclipse,sts,intellij,vs code-->STS
+--> server --> tomcat
+--> database --> mysql
+
+
+day1:
+.java --> for developers
+.class --> for end users(client)
+
+hdfc bank
+--> developers-->cybage(.java)
+-->on hdfc bank server(end user client)-->deploy(.class)
+
+data types:
+primitive data types
+whole number --> byte,short,int,long
+decimal number --> float(IEEE floating type format), double(stored using java standard)
+boolean --> true,false
+char --> english(ascii) ,hindi (using unicode characters)
+derived data types
+string
+
+desktop application --> jar file
+web based application --> war file
+
+
+
+-----------------------------------------------------------------------
+
+
+day2:
+object oriented features
+-> objects, classes
+-> encapsulation,inheritance,polymorphism,abstraction
+
+
+employee management
+-> employee object(entity)
+-> structure of employee -> class
+-> properties -> id,name,email
+-> method -> display
+
+encapsulation-> properties should be private and methods should be public
+
+polymorphism
+-> compile time->constructor/method overloading
+-> run time->overiding methods from super class
+
+object class
+-> every class inherited from object class.
+-> 8-10 methods.
+
+abstraction
+-> it is showing essential details(interface) and 
+	thiding implementations(class)
+
+
+-----------------------------------------------------------------------
+
+
+day3:
+
+exception handling:
+-> expected means unexpected problem.
+-> exception handling with 5 keywords: try,catch,finally,throw,throws
+-> java provides various classes to deal with exception
+-> if predefined classes are not enough for exception handlng then we can go for custom exception.
+
+-> exception: these are run time problems due to programming logic, exception 
+	are in the control of programmers
+-> errors: these are run time problems due to run time environment
+
+-> unchecked: if your program does not depend on external resources then kind of
+	exception is know as unchecked exception.
+-> checked: if your program depends on external resources then kind of
+	exception is know as checked exception.
+	resources: file,network,database etc.
+
+
+
+-----------------------------------------------------------------------
+
+
+day4:
+input/output
+->input is about taking data to program(ex: keyboard,mouse)
+->output is showing data(ex: monitor,speaker)
+
+input --> program --> output
+
+input to program data will be carried by stream -> input stream -> System.in
+program to output will carried by stream -> output stream -> System.out
+
+byte stream --> useful to read binary data e.g: image,object, .exe, video(english ASCII)
+	input stream --> fileinputstream, bytearrayinputstream
+	output stream --> fileoutputstream, bytearrayoutputstream 
+
+
+character stream --> data from different languages can be processed by character
+	Reader --> Filereader
+	Writer --> Filewriter
+
+
+-----------------------------------------------------------------------
+
+
+day5:
+
+collection framework:
+--> it is about group of object.
+--> java will provide different api to deal with group of objects.
+--> it is also considered as in memory database(RAM)
+
+database:
+table --> class
+row --> object
+
+
+List:
+-> List of elements
+-> duplication allowed
+-> sequence maintained
+-> can be access using index
+	Arraylist
+		-> dynamic array for storage
+		-> sequential memory
+		-> for addition/deletion of element we need to shift
+	LinkedList
+		-> it will use doubly linked list 
+		-> random memory
+		-> for addition/deletion of element no need to shift
+
+
+benefits of iterator:
+it can be used to remove a element.
+
+
+-----------------------------------------------------------------------
+
+
+day6:
+
+collection framework:
+set
+-> it is a collection of elements
+-> duplicates are not allowed.
+-> sequence may or may not be maintained.
+-> sorting may or may not be done.
+-> no index based access.
+	-> hashset : it uses hashing for storing elements(bucket)
+			sequence not maitained, no sorting, adding possible only at end
+	-> linkedhashset : it will maintain the sequence, no sorting
+	-> treeset : it will sort elements.
+
+== --> it will check only reference
+equals --> will check actual contents for object --> override equals method
+
+
+map
+-> it is a collection of elements.
+-> every element has key attached to it.
+-> key: value pair
+-> key should be unqiue, value may or may not be unique
+-> sequence may or may not be maintained.
+-> sorting may or may not be done
+-> only one null value allowed in key, but in value null can be for many times.
+	HashMap: internally uses hashing for storage(key), sequence not maintained(key),
+		 	no sorting, not synchorinze(not good for multithreaded program)
+	LinkedHashMap: internally uses hashing for storage(key), sequence will be maintained(key),
+			 no sorting
+	TreeMap: it will provide sorting based on keys
+	HashTable: it is like hashmap but synchronized(it supports multithreading)
+
+-----------------------------------------------------------------------
+
+
+day7:
+
+wrapper classes
+--> string pool, integer pool, float pool, double pool, long pool, char pool, byte pool, short pool
+
+
+annotations
+--> additional information to the compiler/proram/jvm (meta data)
+
+
+multithreading
+--> executing multiple thread at the same time
+--> synchroized possible using block and method
+--> thread pool ideal size {it depends on cpu core}
+
+-----------------------------------------------------------------------
+
+
+day8:
+->functional interface
+->lambda expression
+->stream api
+
+functional interface
+-> interface having single method is know as functional interface
+
+
+consumer -> just accept value and don't return anything
+supplier -> no value accepted but returns value
+function -> accept value and return value
+predicate -> accept value and return boolean result
+
+
+stream api
+--> it is usefull to process collection
+--> work like sql statement
+--> stream wont modify the database
+--> it is used to reduce the number of class.
+--> collection processing becomes simpler.
+--> get sql type statements.
+--> parallel functions can be executed in parallelstream.
+
+
+-----------------------------------------------------------------------
+
+
+day9:
+
+JDBC:
+--> it is about connecting java application to database.
+--> we can connect to any database.
+--> derby,h2->testing(junit)
+
+
+select --> executequery
+update,delete,insert --> executeupdate
+
+
+pl/sql --> oracle
+t-sql --> sql server
+
+Statement --> any query without placeholder(without parameter)
+PreparedStatement --> any query with placeholder(with parameter)
+callable statement --> useful to call pl/sql procdure or function
+
+
+transaction management
+--> commit -> it will be added permanently
+--> rollback -> it wont be reflected in database
+--> savepoint

@@ -1,0 +1,8 @@
+package com.cybage.threading;
+
+public class Tester extends Thread {
+	@Override
+	public void run() {
+		System.out.println("2. i am testing");
+	}
+}

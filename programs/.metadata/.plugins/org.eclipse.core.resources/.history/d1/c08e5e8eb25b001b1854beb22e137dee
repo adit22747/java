@@ -1,0 +1,13 @@
+package com.cybage.interthread;
+
+public class Test extends Thread {
+	public static void main(String[] args) {
+		Account account = new Account();
+		
+		new Thread(){
+			public void run() {
+				account.withdraw(40000);
+			};
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package com.cybage.threading;
+
+public class XYZProject {
+	//main thread will be started
+	public static void main(String[] args) {
+		System.out.println("multithreading");
+		System.out.println("name of thread :"+Thread.currentThread().getName());
+		System.out.println("id of thread :"+Thread.currentThread().getId());
+		
+		Developer d1  = new Developer();
+		d1.start();     //it will call run method
+		
+		Tester t1 = new Tester();
+		t1.start();
+		
+		Deployment dp = new Deployment();
+		dp.start();
+		
+		System.out.println("4. we have finished");
+	}
+}

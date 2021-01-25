@@ -1,0 +1,11 @@
+package com.cybage;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+
+import javax.lang.model.element.Element;
+
+@Target(ElementType.TYPE, ElementType.FIELD)
+public @interface MyAnnotation {
+	
+}

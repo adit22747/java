@@ -1,0 +1,52 @@
+package com.cybage.java8;
+
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.ArrayList;
+
+public class Test1 {
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<>();
+		list.add(new Employee(101,"dm101",36,123));
+		list.add(new Employee(102,"dm102",3,12300));
+		list.add(new Employee(103,"dm103",26,2222));
+		list.add(new Employee(104,"dm104",24,4000));
+		list.add(new Employee(105,"dm105",22,6000));
+		
+		list
+		.stream()			//it will return stream , it is a temporary work area
+		.forEach((e) -> System.out.println(e)
+		);
+		
+		
+		
+//		for (Employee employee : list) {		both above one and foreach are same
+//			System.out.println(employee);
+//		}
+		
+		
+		
+//		list
+//		.parallelStream()
+//		.map(e -> e.getName().toUpperCase())
+//		.forEach((e) -> System.out.println(e)
+//		);
+		
+		
+		
+//		list
+//		.parallelStream()
+//		.map(e -> {e.setName(e.getName().toUpperCase()); return e; })
+//		.forEach((e) -> System.out.println(e)
+//		);
+		
+		
+		
+		list
+		.parallelStream()
+		.map(e -> {e.setName(e.getName().toUpperCase()); return e; })
+		.sorted(new AgeComparator())
+		.forEach((e) -> System.out.println(e)
+		);
+	}
+}

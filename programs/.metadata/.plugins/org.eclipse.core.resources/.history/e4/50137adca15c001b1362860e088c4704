@@ -1,0 +1,9 @@
+package com.cybage;
+
+public class JDBCExample {
+	public void addRecord() throws ClassNotFoundException {
+		/// 1. need to load necessary class
+		Class.forName("com.mysql.jdbc.driver");
+		
+	}
+}

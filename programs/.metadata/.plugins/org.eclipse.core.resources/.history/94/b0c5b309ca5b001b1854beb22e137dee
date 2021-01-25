@@ -1,0 +1,15 @@
+package com.cybage.java8;
+
+public class Test {
+	public static void main(String[] args) {
+//		Arithmetic cal = new Arithmetic(){
+//		
+//			public int add(int a ,int b){
+//				return a+b;
+//			}
+//		};
+		
+		Arithmetic cal = (a,b) -> a+b;        //lambda expression
+		System.out.println(cal.add(2,3));
+	}
+}

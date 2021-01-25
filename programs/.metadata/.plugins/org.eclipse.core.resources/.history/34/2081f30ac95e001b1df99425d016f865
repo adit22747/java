@@ -1,0 +1,7 @@
+package com.cybage;
+
+public class JDBCExample {
+	public void getResultInfo() {
+		
+	}
+}

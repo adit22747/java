@@ -1,0 +1,15 @@
+package com.cybage.java8;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Test1 {
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<>();
+		list.add(new Employee(101,"dm101",36,123));
+		list.add(new Employee(102,"dm102",3,12300));
+		list.add(new Employee(103,"dm103",26,2222));
+		list.add(new Employee(104,"dm104",24,4000));
+		list.add(new Employee(105,"dm105",22,6000));
+	}
+}
