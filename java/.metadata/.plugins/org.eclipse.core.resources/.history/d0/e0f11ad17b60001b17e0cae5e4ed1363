@@ -1,0 +1,7 @@
+package com.assignment4;
+
+import java.util.Hashtable;
+
+public class BankApplication {
+	private Hashtable customerInfo = new Hashtable(); 
+}

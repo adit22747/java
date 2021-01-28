@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/com/cybage/UI.java=UTF-8
+encoding//src/com/cybage/dao/EmployeeDao.java=UTF-8
+encoding//src/com/cybage/dao/EmployeeDaoImpl.java=UTF-8
+encoding//src/com/cybage/exception/EmployeeException.java=UTF-8
+encoding//src/com/cybage/model/Employee.java=UTF-8
+encoding//src/com/cybage/model/RegularEmployee.java=UTF-8
+encoding//src/com/cybage/model/RetiredEmployee.java=UTF-8
+encoding//src/com/cybage/service/EmployeeService.java=UTF-8
+encoding//src/com/cybage/service/EmployeeServieImpl.java=UTF-8

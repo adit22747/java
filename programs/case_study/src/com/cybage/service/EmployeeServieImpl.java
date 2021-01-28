@@ -27,7 +27,7 @@ public class EmployeeServieImpl implements EmployeeService{
 
 
     @Override
-    public void add(String name, String address, int comp, String type) throws EmployeeException, IOException{
+    public void add(String name, String address, int comp, String type) throws Exception{
 
 
         if(name == null) {
@@ -41,9 +41,9 @@ public class EmployeeServieImpl implements EmployeeService{
         }
         
         if(type.equals("REG")) {
-            empDao.add(new RegularEmployee(generateId() , name, address, comp));
+            empDao.add(new RegularEmployee(generateId() , name, address, comp), "REG");
         }else if(type.equals("RET")){
-            empDao.add(new RetiredEmployee( generateId(),  name, address, comp));
+            empDao.add(new RetiredEmployee( generateId(),  name, address, comp), "RET");
         }else {
             System.out.println("not able to add employee as type is invalid");
         }
@@ -51,7 +51,7 @@ public class EmployeeServieImpl implements EmployeeService{
 
 
     @Override
-    public void displayAll() throws EmployeeException, IOException{
+    public void displayAll() throws Exception{
         empDao.display();
     }
 
@@ -67,15 +67,19 @@ public class EmployeeServieImpl implements EmployeeService{
 
 
     @Override
-    public void delete(int id) {
-
-
-    }
-
-
-    @Override
-    public void update(int id, Employee emp) {
-
+    public void delete(int id) throws Exception {
+    	empDao.delete(id);
 
     }
+
+
+
+	@Override
+	public void update(int id, String name, String address) throws Exception {
+		empDao.update(id, name,address);
+		
+	}
+
+
+    
 }
