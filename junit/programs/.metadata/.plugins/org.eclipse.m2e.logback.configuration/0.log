@@ -1,0 +1,433 @@
+2021-01-29 11:47:36,196 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-01-29 11:49:21,021 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\BE java dec 2020\junit\programs\junit-example\pom.xml
+2021-01-29 11:49:22,000 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 11:49:22,808 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/main/java
+2021-01-29 11:49:22,816 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/test/java
+2021-01-29 11:49:23,580 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2021-01-29 11:49:24,175 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:49:24,176 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:49:24,177 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:49:24,177 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 11:50:50,083 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 11:50:50,325 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:50:50,326 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:50:50,327 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:50:50,327 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 11:50:51,613 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:50:51,613 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:50:51,614 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:50:51,614 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 11:50:51,907 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0-sources.jar
+2021-01-29 11:50:52,351 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0-sources.jar
+2021-01-29 11:50:52,666 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.7.0
+2021-01-29 11:50:53,108 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar
+2021-01-29 11:50:53,270 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar
+2021-01-29 11:50:53,494 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.1.0
+2021-01-29 11:50:53,919 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2021-01-29 11:50:54,071 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2021-01-29 11:50:54,283 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.2.0
+2021-01-29 11:50:54,719 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0-sources.jar
+2021-01-29 11:50:55,031 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0-sources.jar
+2021-01-29 11:50:55,324 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.7.0
+2021-01-29 11:50:55,521 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:50:55,521 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:50:55,522 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:50:55,522 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 11:51:03,546 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:51:03,546 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:51:03,547 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:51:03,548 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 11:54:21,653 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 11:54:21,890 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:54:21,890 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:54:21,892 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:54:21,892 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 11:54:29,429 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-01-29 11:54:29,694 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 11:54:29,970 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/main/java
+2021-01-29 11:54:29,970 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/test/java
+2021-01-29 11:54:30,103 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-01-29 11:54:30,251 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:54:30,252 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 11:54:30,253 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 11:54:30,253 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:00:31,685 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:00:31,685 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:00:31,686 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:00:31,686 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:00:38,807 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 12:00:39,078 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:00:39,078 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:00:39,079 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:00:39,079 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:06:29,255 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:06:29,255 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:06:29,256 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:06:29,256 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:07:04,192 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:07:04,192 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:07:04,193 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:07:04,193 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:07:48,844 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:07:48,844 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:07:48,845 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:07:48,845 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:12:44,420 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:12:44,421 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:12:44,421 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:12:44,421 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:13:44,823 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:13:44,823 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:13:44,824 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:13:44,824 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:13:52,451 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:13:52,451 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:13:52,452 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:13:52,452 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:19:00,431 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:19:00,431 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:19:00,432 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:19:00,433 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:19:05,710 [Worker-21: Launching ArithmeticTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar
+2021-01-29 12:19:06,142 [Worker-21: Launching ArithmeticTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar
+2021-01-29 12:19:06,482 [Worker-21: Launching ArithmeticTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar
+2021-01-29 12:19:06,772 [Worker-21: Launching ArithmeticTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar
+2021-01-29 12:19:07,081 [Worker-21: Launching ArithmeticTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar
+2021-01-29 12:19:07,399 [Worker-21: Launching ArithmeticTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar
+2021-01-29 12:19:35,443 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:19:35,444 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:19:35,444 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:19:35,444 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:21:08,208 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:21:08,208 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:21:08,208 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:21:08,209 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:21:38,820 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:21:38,820 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:21:38,821 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:21:38,821 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:24:15,452 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:24:15,452 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:24:15,453 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:24:15,453 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:31:24,436 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:31:24,436 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:31:24,437 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:31:24,437 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:34:57,812 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:34:57,812 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:34:57,812 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:34:57,812 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:35:35,457 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:35:35,458 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:35:35,458 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:35:35,458 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:37:28,324 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:37:28,324 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:37:28,325 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:37:28,325 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:37:55,500 [Worker-41: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:37:55,500 [Worker-41: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:37:55,501 [Worker-41: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:37:55,502 [Worker-41: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:38:38,902 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:38:38,902 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:38:38,903 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:38:38,903 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:38:47,387 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:38:47,387 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:38:47,388 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:38:47,388 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:39:34,316 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:39:34,316 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:39:34,316 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:39:34,317 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:39:41,754 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:39:41,755 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:39:41,755 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:39:41,755 [Worker-37: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:41:28,085 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:41:28,086 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:41:28,086 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:41:28,086 [Worker-33: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:42:56,060 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-01-29 12:42:56,325 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 12:42:56,537 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/main/java
+2021-01-29 12:42:56,537 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/test/java
+2021-01-29 12:42:56,626 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-01-29 12:42:56,802 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:42:56,802 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:42:56,803 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:42:56,803 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:44:09,559 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:44:09,559 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:44:09,560 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:44:09,560 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:47:58,452 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:47:58,453 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:47:58,453 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:47:58,453 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:49:12,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:49:12,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:49:12,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:49:12,568 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 12:51:17,242 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:51:17,242 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 12:51:17,243 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 12:51:17,243 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:03:56,606 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:03:56,606 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:03:56,607 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:03:56,607 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:04:13,994 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:04:13,995 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:04:13,995 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:04:13,995 [Worker-56: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:04:28,468 [Worker-58: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:04:28,468 [Worker-58: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:04:28,470 [Worker-58: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:04:28,470 [Worker-58: Launching ArithmeticTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:04:36,761 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:04:36,762 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:04:36,762 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:04:36,762 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:06:26,263 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:06:26,263 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:06:26,264 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:06:26,264 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:14:41,116 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:14:41,116 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:14:41,117 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:14:41,117 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:14:50,165 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:14:50,166 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:14:50,166 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:14:50,166 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 15:14:57,616 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:14:57,616 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 15:14:57,616 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 15:14:57,616 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:29:01,874 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:29:01,874 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:29:01,874 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:29:01,875 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:29:28,017 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:29:28,017 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:29:28,017 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:29:28,017 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:30:49,159 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:30:49,159 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:30:49,160 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:30:49,160 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:30:57,881 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:30:57,881 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:30:57,881 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:30:57,881 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:31:54,349 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:31:54,349 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:31:54,350 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:31:54,350 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:33:34,279 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:33:34,279 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:33:34,279 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:33:34,279 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:37:17,884 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:37:17,885 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:37:17,885 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:37:17,885 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:37:40,511 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:37:40,511 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:37:40,512 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:37:40,512 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:37:51,434 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:37:51,434 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:37:51,435 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:37:51,435 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:40:03,308 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:40:03,309 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:40:03,309 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:40:03,309 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:41:20,222 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:41:20,222 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:41:20,222 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:41:20,223 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:42:14,340 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:42:14,340 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:42:14,340 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:42:14,340 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:42:35,610 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:42:35,610 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:42:35,610 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:42:35,610 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:46:13,953 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:46:13,953 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:46:13,954 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:46:13,954 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:47:07,549 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:47:07,549 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:47:07,549 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:47:07,549 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:48:22,226 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:48:22,226 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:48:22,227 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:48:22,227 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:50:14,490 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:50:14,490 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:50:14,490 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:50:14,490 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:54:27,441 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:54:27,441 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:54:27,442 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:54:27,442 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:54:32,517 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:54:32,517 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:54:32,518 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:54:32,518 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:54:50,659 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:54:50,659 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:54:50,659 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:54:50,659 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:57:54,609 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:57:54,609 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:57:54,610 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:57:54,610 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 16:58:07,872 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:58:07,872 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 16:58:07,872 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 16:58:07,873 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:05:36,058 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:05:36,058 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:05:36,058 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:05:36,058 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:07:03,306 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:07:03,306 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:07:03,307 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:07:03,307 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:07:12,224 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:07:12,224 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:07:12,225 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:07:12,225 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:07:29,301 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:07:29,301 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:07:29,302 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:07:29,302 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:12:31,993 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:12:31,994 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:12:31,994 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:12:31,994 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:12:37,610 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:12:37,610 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:12:37,610 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:12:37,610 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:12:46,977 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:12:46,977 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:12:46,977 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:12:46,977 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:13:49,997 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:13:49,997 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:13:49,998 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:13:49,998 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:14:06,382 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:14:06,382 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:14:06,382 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:14:06,382 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:14:16,207 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:14:16,207 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:14:16,208 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:14:16,208 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:14:22,623 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:14:22,624 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:14:22,624 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:14:22,624 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:15:24,273 [Worker-100: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 17:15:24,680 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:24,680 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:15:24,681 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:24,681 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:15:26,017 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:26,017 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:15:26,018 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:26,018 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:15:26,281 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0-sources.jar
+2021-01-29 17:15:26,454 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0-sources.jar
+2021-01-29 17:15:26,641 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-runner:1.7.0
+2021-01-29 17:15:27,091 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13-sources.jar
+2021-01-29 17:15:27,593 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13-sources.jar
+2021-01-29 17:15:27,965 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.13
+2021-01-29 17:15:28,417 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2021-01-29 17:15:28,614 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2021-01-29 17:15:28,876 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2021-01-29 17:15:29,323 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0-sources.jar
+2021-01-29 17:15:29,493 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0-sources.jar
+2021-01-29 17:15:29,659 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-suite-api:1.7.0
+2021-01-29 17:15:30,101 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0-sources.jar
+2021-01-29 17:15:30,434 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0-sources.jar
+2021-01-29 17:15:30,603 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-launcher:1.7.0
+2021-01-29 17:15:31,066 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0-sources.jar
+2021-01-29 17:15:31,504 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0-sources.jar
+2021-01-29 17:15:31,674 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.7.0
+2021-01-29 17:15:32,127 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0-sources.jar
+2021-01-29 17:15:32,512 [Worker-105: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0-sources.jar
+2021-01-29 17:15:32,843 [Worker-105: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.7.0
+2021-01-29 17:15:32,992 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:32,992 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:15:32,993 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:32,993 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:15:41,151 [Worker-106: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-01-29 17:15:41,358 [Worker-106: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 17:15:41,606 [Worker-106: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/main/java
+2021-01-29 17:15:41,606 [Worker-106: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/test/java
+2021-01-29 17:15:41,700 [Worker-106: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-01-29 17:15:41,897 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:41,897 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:15:41,898 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:15:41,898 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:16:00,514 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:16:00,514 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:16:00,515 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:16:00,515 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:16:51,474 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-01-29 17:16:51,686 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybage:junit-example:0.0.1-SNAPSHOT @ D:\BE java dec 2020\junit\programs\junit-example\pom.xml.
+2021-01-29 17:16:51,909 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/main/java
+2021-01-29 17:16:51,909 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junit-example/src/test/java
+2021-01-29 17:16:52,001 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-01-29 17:16:52,191 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:16:52,191 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:16:52,192 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:16:52,192 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:17:42,754 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:17:42,754 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:17:42,754 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:17:42,754 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:17:54,287 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:17:54,287 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:17:54,288 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:17:54,288 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:18:21,503 [Worker-109: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:18:21,503 [Worker-109: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:18:21,503 [Worker-109: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:18:21,503 [Worker-109: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:19:48,567 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:19:48,567 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:19:48,567 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:19:48,567 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:24:50,188 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:24:50,188 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:24:50,188 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:24:50,189 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:25:17,233 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:25:17,233 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:25:17,234 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:25:17,234 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:31:51,055 [Worker-114: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:31:51,055 [Worker-114: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:31:51,057 [Worker-114: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:31:51,057 [Worker-114: Launching TestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:32:07,043 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:32:07,043 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:32:07,043 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:32:07,043 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources
+2021-01-29 17:32:14,673 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:32:14,673 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\main\resources
+2021-01-29 17:32:14,673 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-29 17:32:14,673 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\BE java dec 2020\junit\programs\junit-example\src\test\resources

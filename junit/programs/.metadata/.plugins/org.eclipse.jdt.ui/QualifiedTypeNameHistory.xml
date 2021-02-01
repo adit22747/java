@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="com.cybage.Arithmetic"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.condition.EnabledOnOs"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.condition.OS"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.condition.EnabledForJreRange"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.condition.EnabledOnJre"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestMethodOrder"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer.Alphanumeric"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer.MethodName"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.RepeatedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.SelectPackages"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Tag"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.ExcludeTags"/>
+</qualifiedTypeNameHistroy>

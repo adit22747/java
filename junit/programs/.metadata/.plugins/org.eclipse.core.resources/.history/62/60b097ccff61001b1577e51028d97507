@@ -1,0 +1,18 @@
+package com.cybage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ArithmeticTest {
+	
+	Arithmetic art = new Arithmetic();
+
+	@Test				//we are writing this method for unit testing
+	void testAdd() {
+		int actualvalue = art.add(10, 20);
+		int expected = 30;
+	    assertEquals(expected, actualvalue);
+	}
+
+}

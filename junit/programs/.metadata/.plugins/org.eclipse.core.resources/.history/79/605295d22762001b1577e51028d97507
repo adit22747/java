@@ -1,0 +1,12 @@
+package com.cybage;
+
+import org.junit.platform.runner.JUnitPlatform;
+
+
+
+@RunWith(JUnitPlatform.class)
+@SelectPackage("com.cybage")
+
+public class TestSuite {
+
+}

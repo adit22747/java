@@ -1,0 +1,18 @@
+package com.cyb;
+
+import java.util.logging.LogManager;
+
+import org.apache.logging.log4j.core.Logger;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	public static final Logger log = LogManager.getlogger(App.class.getName());
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

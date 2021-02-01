@@ -1,0 +1,20 @@
+unit testing --> testing unit of the code
+		as we are testing code, it belongs to developer
+		to test code we write another code.
+		developer needs to implemenet business case + need to write code for testing your implementation
+		reusability
+
+junit --> it is useful for unit testing in java application
+mokcito --> it is mocking framework, part of junit
+
+junit test case -> junit platform -> jvm -> os -> machine
+jre -> api
+jvm -> runtime environment to execute program
+
+SUT --> system under test -> unit
+
+
+setup(@BeforeAll) --> we need setup for particular method(@BeforeEach) 
+			-> executed acutal test case(@Test) 
+				-> clean up at method level(@AfterEach) 
+					-> clean up at class level(@AfterAll)

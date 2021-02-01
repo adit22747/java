@@ -1,0 +1,6 @@
+2021-01-28 12:12:24,336 [main] INFO  com.cyb.App - this is just info message...
+2021-01-28 12:12:24,339 [main] WARN  com.cyb.App - warning message
+2021-01-28 12:12:24,339 [main] ERROR com.cyb.App - error
+2021-01-28 12:12:38,429 [main] INFO  com.cyb.App - this is just info message...
+2021-01-28 12:12:38,431 [main] WARN  com.cyb.App - warning message
+2021-01-28 12:12:38,431 [main] ERROR com.cyb.App - error

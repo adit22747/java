@@ -1,0 +1,260 @@
+!SESSION 2021-01-29 11:47:30.342 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data D:\BE java dec 2020\junit\programs -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-01-29 11:47:33.109
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-29 11:47:33.109
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54c3e686,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39840986,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-29 11:47:37.523
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aditkumarp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:03.494
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:03.496
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1dce53d6[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:03.498
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:03.523
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.066
+!MESSAGE Boot LS startup time from start to initialized: 1564ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.123
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.chMgoARPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.130
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.134
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.136
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.138
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.141
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.chMgoARP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.143
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.147
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.149
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:51:05.162
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-01-29 11:53:18.052
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:54:30.053
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:54:30.055
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:54:30.059
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:54:30.063
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 11:54:30.070
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:00:31.521
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:00:31.523
+!MESSAGE classpath=10 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:00:31.531
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 10
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:00:31.532
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:00:31.543
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:42:56.585
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:42:56.588
+!MESSAGE classpath=10 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:42:56.590
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 10
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:42:56.591
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 12:42:56.595
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-29 17:13:41.188
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-01-29 17:13:41.744
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for RunWith {key=Lorg/junit/runner/RunWith;} [in RunWith.class [in org.junit.runner [in D:\sts-4.9.0.RELEASE\plugins\org.junit_4.13.0.v20200204-1500.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1048)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:519)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-01-29 17:13:41.745
+!MESSAGE Unknown javadoc format for RunWith {key=Lorg/junit/runner/RunWith;} [in RunWith.class [in org.junit.runner [in D:\sts-4.9.0.RELEASE\plugins\org.junit_4.13.0.v20200204-1500.jar]]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:13:49.835
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:13:49.837
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:13:49.839
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:13:49.840
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:13:49.845
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-29 17:14:25.043
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:24.884
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:24.886
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:24.887
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:24.888
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:24.892
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:32.886
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:32.888
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:32.890
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:32.891
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:32.895
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:41.653
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:41.656
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:41.658
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:41.659
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:15:41.663
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:16:51.964
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:16:51.966
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:16:51.968
+!MESSAGE buffering callback sts4.classpath.chMgoARP junit-example false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:16:51.969
+!MESSAGE executing callback sts4.classpath.chMgoARP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 17:16:51.973
+!MESSAGE executing callback sts4.classpath.chMgoARP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 18:28:09.309
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.chMgoARP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 18:28:09.314
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.chMgoARP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 18:28:09.318
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-29 18:28:09.322
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.chMgoARP => OK

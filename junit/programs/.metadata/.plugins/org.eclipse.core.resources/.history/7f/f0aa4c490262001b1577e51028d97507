@@ -1,0 +1,52 @@
+package com.cybage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class ArithmeticTest {
+
+	@BeforeAll
+	static void setup() {
+		System.out.println("execute at start of testing");
+	}
+	
+	@BeforeEach
+	void beforeEveryUnitTestCase() {
+		System.out.println("before every unit test case");
+	}
+	
+	@AfterEach
+	void afterEveryUnitTestCase() {
+		System.out.println("after every unit test case");
+	}
+
+	Arithmetic art = new Arithmetic();
+
+	@Test // we are writing this method for unit testing
+	void testAdd() {
+		int actualvalue = art.add(10, 20);
+		int expected = 30;
+		assertEquals(expected, actualvalue);
+		assertEquals(0, art.add(0, 0));
+		assertEquals(-30, art.add(-10, -20));
+	}
+
+	void testSub() {
+		int actualvalue = art.sub(10, 20);
+		int expected = -20;
+		assertEquals(expected, actualvalue);
+//	    assertEquals(0, art.sub(0, 0));
+//	    assertEquals(500, art.sub(-10, -20));
+	}
+
+	@AfterAll
+	static void finish() {
+		System.out.println("finished");
+	}
+
+}
