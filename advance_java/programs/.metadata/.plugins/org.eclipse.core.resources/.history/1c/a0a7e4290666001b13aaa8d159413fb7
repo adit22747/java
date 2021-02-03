@@ -1,0 +1,59 @@
+package com.cybage.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.cybage.model.User;
+import com.cybage.util.DbUtil;
+
+public class UserDaoImpl implements UserDao {
+
+	public int addUser(User user) throws Exception {
+		String sql = "insert into user values(?,?,?,?)";
+		
+		Connection con = DbUtil.getCon();
+		PreparedStatement ps = con.prepareStatement(sql);
+		
+		ps.setInt(1, user.getId());
+		ps.setString(2, user.getName());
+		ps.setString(3, user.getPassword());
+		ps.setString(4, user.getAddress());
+		
+		return ps.executeUpdate();
+	}
+
+	public List<User> findUser() throws Exception {
+		String sql = "select id,username,address from user";
+		
+		Connection con = DbUtil.getCon();
+		PreparedStatement ps = con.prepareStatement(sql);
+		ResultSet rs = ps.executeQuery();
+		
+		while(rs.next()) {
+			User user = new User();
+			user.setId(rs.getInt(1));
+			user.setName(rs.getString(2));
+			user.setAddress(rs.getString(3));
+		}
+		return null;
+	}
+
+	public User findUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean deleteUser(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean updateUser(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

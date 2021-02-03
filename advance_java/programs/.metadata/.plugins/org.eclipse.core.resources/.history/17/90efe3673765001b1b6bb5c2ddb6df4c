@@ -1,0 +1,23 @@
+<%@page errorPage="error.jsp" %>
+
+<html>
+<body>
+	<h2>Hello World!</h2>
+	<form action="process.jsp">
+		username : <input type="text" name="username"> <input
+			type="submit" value="submit">
+	</form>
+	<%
+		//java code in this
+		int a = 10;
+		System.out.println("hi" + a);
+		
+	%>
+	
+	<%
+	System.out.println(config.getInitParameter("adit"));
+	session.setAttribute("address", "hello");
+	System.out.println(10/0);
+	%>
+</body>
+</html>

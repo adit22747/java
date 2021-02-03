@@ -1,0 +1,9 @@
+<%@include file="header.jsp"%>
+
+<h1>Add user</h1>
+<form action="<%=request.getContextPath() %>/UserController/add" method="post">
+
+</form>
+
+
+<%@include file="footer.jsp"%>

@@ -1,0 +1,172 @@
+adv java
+--> servlet
+--> jsp
+
+webapp
+--> WEB_INF
+--> WEB_INF/web.xml
+
+
+servlet --> it is a java class capable to listen incoming request and send response.
+jsp --> it is a combination of html and java code
+
+
+----------------------------------------------------------------
+
+--> when we start the application it will start tomcat and deploy your pplication in tomcat.
+    tomcat will load all necessary classes. After loading classes, it will create object
+    for all necessary classes particularly servlet classes.
+
+
+
+-----------------------------------------------------------------
+
+
+session tracking techniques
+1. httpsession (cookies)
+2. cookies
+3. url writing
+4. hidden form
+
+person(ui/presenetation/view)-->ola(servie)-->car(dao)
+user-->ui(mobile app,web app)-->controller(servlet)-->service-->dao
+
+
+-----------------------------------------------------------------
+
+
+jsp
+--> java server pages
+--> it will contain html + java
+--> java code inside jsp will be converted into servlet
+--> servlet -> html + java
+--> for ui -> jsp
+--> for controller -> servlet
+--> jsp will be converted into servlet
+--> jsp will be compiled and converted into class file
+--> when we start a container all the necessary classes will be loaded
+--> object will be created by tomcat server with the support of jvm
+--> initialization 
+--> request processing 
+
+
+package
+javax.servlet.jsp
+javax.servlet.jsp.tagext
+
+interface
+jsppage
+httpjsppage
+
+classes
+jspwriter
+pagecontext
+jspfactory
+jspengineinfo
+jspexception
+jsperror
+
+
+----------------------------------------------------------------------
+
+jsp scriptlet tag --> used to add java code into html
+scriplet tag --> any java code  <%
+expression --> only for printing value <%=
+declaration tag
+
+
+----------------------------------------------------------------------
+
+servlet lifecycle --> init, service, destroy
+
+servlet
+when we start container
+-> create servlet class
+-> class will be loaded in container (tomcat)
+
+
+----------------------------------------------------------------------
+
+jsp
+out -> jspwriter
+request -> htppservletrequest
+response -> httpservletreponse
+config -> servletconfig
+application -> servletcontext
+session -> httpsession
+exception -> throwable
+pagecontext -> pagecontext
+page -> object
+
+
+
+jsp directives
+-> way to send information to container
+-> page directive
+-> include directive
+-> taglib directive
+
+
+page directive
+<%@ page attributes="value" %>
+
+include directive
+
+jsp action tags
+-> it is useful to control flow of application
+-> generally used during runtime
+-> jsp:forward
+-> jsp:include
+-> jsp:useBean
+-> jsp:setProperty
+-> jsp:getProperty
+
+
+------------------------------------------------------------------
+
+expression language
+${} 
+<%@ page isELIgnored="false" %>
+
+
+
+------------------------------------------------------------------
+
+case study:
+user management --> create,display,delete,update
+
+
+mvc:
+model --> pure java classes
+view --> html,jsp
+controller --> servlet
+
+user make request -> view -> servlet -> application(service) -> dao layer
+
+layered architecture
+presentation -> application layer -> database layer
+
+
+classes
+-> user(model)
+
+
+servlet
+->UserServlet
+
+
+jsp
+-> add user,display,update,delete
+
+
+service
+-> UserService, UserServiceImpl
+
+
+dao
+-> UserDao, UserDaoImpl
+
+
+dbUtil
+-> getting connection through databsource
+

@@ -1,0 +1,13 @@
+<%@include file="header.jsp"%>
+
+<table border="1">
+	<tr>
+		<td>Sr no</td>
+		<td>User id</td>
+		<td>Username</td>
+		<td>Address</td>
+	</tr>
+</table>
+
+
+<%@include file="footer.jsp"%>

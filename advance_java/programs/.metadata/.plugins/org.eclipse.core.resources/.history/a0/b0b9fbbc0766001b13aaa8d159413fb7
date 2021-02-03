@@ -1,0 +1,28 @@
+<%@include file="header.jsp"%>
+
+<a href="<%=request.getContextPath() %>/user/add-user.jsp">Add User</a>
+<br>
+<table border="1">
+	<tr>
+		<td>Sr no</td>
+		<td>User id</td>
+		<td>Username</td>
+		<td>Address</td>
+		<td><a href="#">Update</a></td>
+		<td><a href="#">Delete</a></td>
+	</tr>
+	<%
+		request.getAttribute("users");
+	%>
+	<tr>
+		<td>Sr no</td>
+		<td>User id</td>
+		<td>Username</td>
+		<td>Address</td>
+		<td><a href="#">Update</a></td>
+		<td><a href="#">Delete</a></td>
+	</tr>
+</table>
+
+
+<%@include file="footer.jsp"%>

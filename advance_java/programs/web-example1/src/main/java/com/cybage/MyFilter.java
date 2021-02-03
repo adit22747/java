@@ -1,0 +1,36 @@
+package com.cybage;
+
+import java.io.IOException;
+import java.util.Date;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+public class MyFilter implements Filter {
+
+	public MyFilter() {
+		//constructor
+	}
+
+	public void destroy() {
+		//destructor
+	}
+
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
+		
+		//we can modify request and response object
+		//date coming from user is in certain format --> convert into required format
+		System.out.println("we have passed our request through filter" + new Date() + request.getLocalPort());
+		chain.doFilter(request, response);
+	}
+
+	public void init(FilterConfig fConfig) throws ServletException {
+
+	}
+
+}
