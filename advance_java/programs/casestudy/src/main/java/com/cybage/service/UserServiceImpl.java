@@ -25,19 +25,18 @@ public class UserServiceImpl implements UserService{
 		return userDao.findUser();
 	}
 
-	public User findUserById(int id) {
+	public User findUserById(int id) throws Exception {
 		// TODO Auto-generated method stub
-		return null;
+		return userDao.findUserById(id);
 	}
 
-	public boolean deleteUser(int id) {
-		// TODO Auto-generated method stub
-		return false;
+	public int deleteUser(int id) throws Exception {
+		return userDao.deleteUser(id);
 	}
 
-	public boolean updateUser(User user) {
-		// TODO Auto-generated method stub
-		return false;
+	public int updateUser(User user) throws Exception {
+		
+		return userDao.updateUser(user);
 	}
 
 }

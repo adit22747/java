@@ -10,5 +10,6 @@
 	<ul>
 		<li><a href="#">Home</a></li>
 		<li><a href="#">View Users</a></li>
+		<li><a href="<%=request.getContextPath()%>/logout.jsp">logout</a></li>
 	</ul>
 	<hr>

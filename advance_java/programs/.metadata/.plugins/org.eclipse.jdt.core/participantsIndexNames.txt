@@ -3,6 +3,8 @@ D:\BE java dec 2020\advance_java\programs\.metadata\.plugins\org.eclipse.jst.jsp
 \casestudy\src\main\java
 D:\BE java dec 2020\advance_java\programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4154563006.index
 \web-example1\src\main\resources
+D:\BE java dec 2020\advance_java\programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3880177907.index
+\casestudy\src\main\java
 D:\BE java dec 2020\advance_java\programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3124618157.index
 \jsp-example\src\main\resources
 D:\BE java dec 2020\advance_java\programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3250222012.index

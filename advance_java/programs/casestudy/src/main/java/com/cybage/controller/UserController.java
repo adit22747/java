@@ -5,6 +5,8 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.HttpConstraint;
+import javax.servlet.annotation.ServletSecurity;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,48 +17,48 @@ import com.cybage.model.User;
 import com.cybage.service.UserService;
 import com.cybage.service.UserServiceImpl;
 
-
+@ServletSecurity(value = @HttpConstraint(rolesAllowed = { "user" }))
 public class UserController extends HttpServlet {
-	
+
 	private UserDao userDao = new UserDaoImpl();
 	private UserService userService = new UserServiceImpl(userDao);
 	private static final long serialVersionUID = 1L;
-       
-    public UserController() {
-        super();
-        
-    }
-    
-   
 
+	public UserController() {
+		super();
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		/*PrintWriter pw = response.getWriter();
-		pw.print("page is working...");*/
-		
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		PrintWriter pw = response.getWriter();
+//		pw.print("page is working...");
+
 		System.out.println("insdie usercontroller");
 		String path = request.getPathInfo();
-		if(path.equals("/add")) {
+		if (path.equals("/add")) {
 			System.out.println("... add method");
 			String username = request.getParameter("username");
 			String password = request.getParameter("password");
 			String address = request.getParameter("address");
-			
-			User user = new User(username, password, address);
+
+			User user = new User(username, password, address,"user");
 			try {
 				int addCount = userService.addUser(user);
-				if(addCount > 0){
+				if (addCount > 0) {
 					response.sendRedirect("list");
 				}
 //				response.sendRedirect("/view-user.jsp");
-				/*if(added > 0) {
-					
-				}*/
+				/*
+				 * if(added > 0) {
+				 * 
+				 * }
+				 */
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
 			}
 		}
-		if(path.equals("/list")) {
+		if (path.equals("/list")) {
 			System.out.println("inside list method");
 			try {
 				List<User> users = userService.findUser();
@@ -66,10 +68,58 @@ public class UserController extends HttpServlet {
 				System.out.println(e.getMessage());
 			}
 		}
+		if (path.equals("/delete")) {
+			System.out.println("inside delete method");
+			try {
+				int id = Integer.parseInt(request.getParameter("id"));
+
+				int deletecount = userService.deleteUser(id);
+				if (deletecount > 0) {
+					response.sendRedirect("list");
+				} else {
+					pw.print("not able to delete");
+					response.sendRedirect("list");
+				}
+
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+		}
+		if (path.equals("/edit")) {
+			System.out.println("inside edit method....");
+			try {
+				int id = Integer.parseInt(request.getParameter("id"));
+				User user = userService.findUserById(id);
+				request.setAttribute("user", user);
+
+				request.getRequestDispatcher("/user/edit-user.jsp").forward(request, response);
+
+			} catch (Exception e) {
+				System.out.println("error occurred: " + e.getMessage());
+			}
+		}
+//		actual updation happens here...
+		if (path.equals("/edit-user")) {
+			System.out.println("inside edit-user method....");
+			int id = Integer.parseInt(request.getParameter("id"));
+			String username = request.getParameter("username");
+			String password = request.getParameter("password");
+			String address = request.getParameter("address");
+			String role = request.getParameter("role");
+
+			User user = new User(id, username, password, address,role);
+			try {
+				userService.updateUser(user);
+				response.sendRedirect("list");
+
+			} catch (Exception e) {
+				System.out.println("exception occurred... " + e.getLocalizedMessage());
+			}
+		}
 	}
 
-
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		doGet(request, response);
 	}
 
