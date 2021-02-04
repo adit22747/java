@@ -1,0 +1,34 @@
+<%@page import="com.cybage.model.User"%>
+<%@page import="java.util.List"%>
+<%@include file="header.jsp"%>
+
+<a href="<%=request.getContextPath() %>/user/add-user.jsp">Add User</a>
+<br>
+<table border="1">
+	<tr>
+		<td>User id</td>
+		<td>Username</td>
+		<td>Address</td>
+		<td><a href="#">Update</a></td>
+		<td><a href="#">Delete</a></td>
+	</tr>
+	<%
+		List<User> users = (List)request.getAttribute("users");
+		for(User u:users){
+			out.print("<tr>");
+			out.print("<td>"+ u.getId() +"</td>");
+			out.print("<td>"+ u.getName() +"</td>");
+			out.print("<td>"+ u.getAddress() +"</td>");
+			
+			String delurl = "<td><a href="+request.getContextPath()+"/UserController/delete?id="+u.getId()+">Delete</a></td>";
+			String updateurl = "<td><a href="+request.getContextPath()+"/UserController/edit?id="+u.getId()+">update</a></td>";
+			out.print(updateurl);
+			out.print(delurl);
+			out.print("<tr>");
+		}
+	%>
+	
+</table>
+
+
+<%@include file="footer.jsp"%>
