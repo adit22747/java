@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:33:57 +0530] "GET /jsp-example/ HTTP/1.1" 200 131
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:33:59 +0530] "GET /jsp-example/ HTTP/1.1" 200 131
+127.0.0.1 - - [04/Feb/2021:09:34:11 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:34:14 +0530] "GET /jsp-example/UserController/list HTTP/1.1" 200 1069
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:34:53 +0530] "GET /jsp-example/UserController/list HTTP/1.1" 200 1069
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:34:56 +0530] "GET /jsp-example/UserController/edit?id=36860 HTTP/1.1" 200 624
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:34:59 +0530] "POST /jsp-example/UserController/edit-user HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:34:59 +0530] "GET /jsp-example/UserController/list HTTP/1.1" 200 1070
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:00 +0530] "GET /jsp-example/UserController/edit?id=95485 HTTP/1.1" 200 616
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:03 +0530] "POST /jsp-example/UserController/edit-user HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:03 +0530] "GET /jsp-example/UserController/list HTTP/1.1" 200 1082
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:06 +0530] "GET /jsp-example/UserController/delete?id=95485 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:06 +0530] "GET /jsp-example/UserController/list HTTP/1.1" 200 890
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:09 +0530] "GET /jsp-example/user/add-user.jsp HTTP/1.1" 200 564
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:15 +0530] "POST /jsp-example/UserController/add HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2021:09:35:15 +0530] "GET /jsp-example/UserController/list HTTP/1.1" 200 1081
