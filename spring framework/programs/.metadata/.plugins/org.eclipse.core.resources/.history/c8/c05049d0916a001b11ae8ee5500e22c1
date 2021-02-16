@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- Employee emp = new Employee(101, "dm101") -->
+	<bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy">
+		<constructor-arg name="id" type="int" value="101"></constructor-arg>
+		<constructor-arg name="name" type="java.lang.String"
+			value="dm101"></constructor-arg>
+	</bean>
+	<alias name="emp" alias="emp2" />
+
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy">
+		<constructor-arg type="int" value="101"></constructor-arg>
+		<constructor-arg type="java.lang.String" value="dm101"></constructor-arg>
+	</bean> -->
+</beans>

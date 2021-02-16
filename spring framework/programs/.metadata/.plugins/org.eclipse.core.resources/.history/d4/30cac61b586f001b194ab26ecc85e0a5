@@ -1,0 +1,36 @@
+package com.example;
+
+import java.util.List;
+
+public class Employee {
+	private int id;
+	private String name;
+
+	public Employee(List<Integer> id, List<String> name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	public List<Integer> getId() {
+		return id;
+	}
+
+	public void setId(List<Integer> id) {
+		this.id = id;
+	}
+
+	public List<String> getName() {
+		return name;
+	}
+
+	public void setName(List<String> name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + "]";
+	}
+
+}

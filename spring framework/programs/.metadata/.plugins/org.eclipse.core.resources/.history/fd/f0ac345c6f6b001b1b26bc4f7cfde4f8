@@ -1,0 +1,14 @@
+package com.example;
+
+import java.awt.PageAttributes.MediaType;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class AdminController {
+	
+	
+	@GetMapping(path = "/admin", produces = MediaType.Appliation)
+	public String getAdmin() {
+		return "admin";
+	}
+}

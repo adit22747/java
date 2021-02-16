@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- Employee emp = new Employee(101, "dm101") -->
+	<bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy" lazy-init="true">
+		<constructor-arg name="id" type="int" value="101"></constructor-arg>
+		<constructor-arg name="name" type="java.lang.String"
+			value="dm101"></constructor-arg>
+	</bean>
+	<alias name="emp" alias="emp2" />
+
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit" destroy-method="myDestroy"> 
+		<constructor-arg type="int" value="101"></constructor-arg> <constructor-arg 
+		type="java.lang.String" value="dm101"></constructor-arg> </bean> -->
+
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit" destroy-method="myDestroy"> 
+		<constructor-arg index="0" value="101"></constructor-arg> <constructor-arg 
+		index="1" value="dm101"></constructor-arg> </bean> -->
+	
+	
+	<!-- constructor injection -->
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy">
+		<constructor-arg index="0" value="101"></constructor-arg>
+		<constructor-arg index="1" value="dm101"></constructor-arg>
+		<constructor-arg index="2" ref="address"></constructor-arg> 
+	</bean>
+	<bean class="com.cybage.Address">
+		<constructor-arg index="0" value="12"></constructor-arg>
+		<constructor-arg index="1" value="address"></constructor-arg>
+	</bean> -->
+	
+	
+	
+	<!-- getter and setter injection -->
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy">
+		<property name="id" value="101"></property>
+		<property name="name" value="dm234"></property>
+		<constructor-arg name="address" ref="address"></constructor-arg> 
+	</bean>
+	<bean class="com.cybage.Address">
+		<constructor-arg name="id" value="12"></constructor-arg>
+		<constructor-arg name="address" value="address"></constructor-arg>
+	</bean> -->
+	
+	
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy">
+	<property name="id" value="101"></property>
+	<property name="name" value="dm234"></property>
+	<property name="address" value="address"></property>
+	<property name="skills">
+		<list>
+		<value>java</value>
+		</list>
+	</property>
+	
+	</bean>
+	<bean class="com.cybage.Address">
+		<constructor-arg name="id" value="12"></constructor-arg>
+		<constructor-arg name="address" value="address"></constructor-arg>
+	</bean> -->
+	
+	
+	
+	<!-- <bean class="com.cybage.Employee" id="emp" init-method="myInit"
+		destroy-method="myDestroy" autowire="byName">
+	<property name="id" value="101"></property>
+	<property name="name" value="dm234"></property>
+	<property name="skills">
+		<list>
+		<value>java</value>
+		</list>
+	</property>
+	
+	</bean>
+	<bean class="com.cybage.Address">
+		<constructor-arg name="id" value="12"></constructor-arg>
+		<constructor-arg name="address" value="address"></constructor-arg>
+	</bean> -->
+
+
+</beans>

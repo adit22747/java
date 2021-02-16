@@ -1,0 +1,10 @@
+spring core
+--> java -> java,jsp,servlet,jpa,web services
+--> javascript
+
+
+spring framework -> spring data -> spring data jpa(hibernate)
+
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+
