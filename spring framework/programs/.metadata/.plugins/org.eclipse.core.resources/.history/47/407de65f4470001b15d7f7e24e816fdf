@@ -1,0 +1,12 @@
+package com.example;
+
+public class Regular extends User{
+	public Regular(int id, String name) {
+		super(id, name);
+	}
+	public Regular() {
+		super();
+	}
+
+	private int salary;
+}

@@ -1,0 +1,16 @@
+package com.example;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+
+//	List<Employee> findByName(String name);
+	// spring data jpa will implement all methods related to emp entity
+//	public List<Employee> myFindByName(String name);
+
+	@Query("select e from Employee e where e.name=?1")
+	public List<Employee> myFindByName(String name);
+}

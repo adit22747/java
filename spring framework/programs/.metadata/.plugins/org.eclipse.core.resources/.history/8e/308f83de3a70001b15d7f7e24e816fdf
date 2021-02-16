@@ -1,0 +1,62 @@
+package com.example;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.NamedQuery;
+
+@Entity
+//@NamedQuery(name = "Employee.myFindByName", query = "select e from Employee e where e.name=?1")			//JPQL
+//@NamedNativeQuery(name = "Employee.myFindByName", query = "select * from employee where name=?1", resultClass = Employee.class)
+public class Employee {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+//	@Column(name = "myid")
+	private int id;
+
+//	@Column(name = "myname")
+	private String name;
+	private List<String> phone;
+
+	public Employee(String name, List<String> phone) {
+		super();
+		this.name = name;
+		this.phone = phone;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<String> getPhone() {
+		return phone;
+	}
+
+	public void setPhone(List<String> phone) {
+		this.phone = phone;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", phone=" + phone + "]";
+	}
+
+}

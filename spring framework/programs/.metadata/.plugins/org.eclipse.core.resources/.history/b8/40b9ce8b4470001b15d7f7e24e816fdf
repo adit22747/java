@@ -1,0 +1,6 @@
+package com.example;
+
+public class Retired extends User {
+	private int pension;
+	
+}
