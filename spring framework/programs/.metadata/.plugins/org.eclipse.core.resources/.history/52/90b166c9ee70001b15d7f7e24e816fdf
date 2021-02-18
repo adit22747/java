@@ -1,0 +1,44 @@
+package com.example;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringDataJpaExampleApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringDataJpaExampleApplication.class, args);
+	}
+	
+	@Autowired
+	UserRepository ur;
+	
+	@Autowired
+	AccountRepository ar;
+
+	@Override
+	public void run(String... args) throws Exception {
+		Account account1 = new Account("myaccount", null);
+		account1.setAccountName("acc1");
+		Account account2 = new Account("myaccount", null);
+		account2.setAccountName("acc2");
+		
+		List<Account> accounts = new ArrayList<Account>();
+		accounts.add(account1);
+		accounts.add(account2);
+		
+		User user = new User("myname", account);
+		user.setName("name1");
+		user.setAccount(accounts);
+		ur.save(user);
+		
+	}
+
+
+
+}

@@ -1,0 +1,34 @@
+package com.example;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.domain.Sort;
+import org.springframework.stereotype.Repository;
+
+@SpringBootApplication
+@Repository
+public class SortingApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SortingApplication.class, args);
+		
+	}
+	
+	@Autowired
+	EmployeeRepository er;
+
+	@Override
+	public void run(String... args) throws Exception {
+		er.save(new Employee("adit"));
+		er.save(new Employee("mdit"));
+		er.save(new Employee("bdit"));
+		er.save(new Employee("xdit"));
+		er.save(new Employee("tdit"));
+		
+		System.out.println("--------------------------");
+		System.out.println(er.findAll(Sort.by(Sort.Direction.ASC,"id")));
+	}
+
+}
