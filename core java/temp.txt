@@ -1,0 +1,640 @@
+Core java
+--> software setup 
+--> jdk 
+--> editor --> eclipse, sts, intellij, vs code --> STS
+--> server --> tomcat
+--> database --> mysql
+
+ 
+
+
+program creation
+1. create project
+2. package  e.g. reverse of domain name    cybage.com --> com.cybage
+        hsbc.net --> net.hsbc
+3. create class
+
+ 
+
+
+.java --> for developers
+.class --> for end users(client)
+
+ 
+
+hdfc bank
+--> developers --> cybage(.java)
+--> on hdfc bank server(end user, client) --> deploy(.class)
+
+ 
+
+
+variables
+data types
+whole number --> byte, short, int long
+decimal number --> float(IEEE floating type format ) , double (stored using java standard)
+boolean --> true , false
+char --> english(ascii), german, chineese, hindi, marathi--> unicode characters
+unicode --> ascii + character from different languages
+String
+
+ 
+
+
+in java
+everything is in terms of class and object
+
+ 
+
+
+go to Arrays --> hold ctrl key   --> click
+
+ 
+
+
+operators
+arithmetic --> + , -
+bitwise --> |, &
+assignment --> =, +=, -=, etc
+comparison--> >, <, <=, !=
+logical --> &&, ||, !
+ternary->         condition? logic if condition is true: logic if condition is false
+misc
+operator priority--> () ,,,,, =
+
+ 
+
+
+a += 10 -----> a=a+10
+a<<=3
+
+ 
+
+
+x  = 10
+3
+x != 3
+
+ 
+
+10 ---> 1010
+3 ---->  0011
+------------------
+              1011    
+
+ 
+
+
+javac
+
+ 
+
+desktop application --> jar file
+web based application --> war file
+
+ 
+
+---------------------------------------------------------------------------------------------------------------------------------------
+day2
+object oriented features
+--> object, classes
+--> encapsulation
+--> inheritance
+--> polymorphism
+--> abstraction
+
+ 
+
+employee management
+--> employee object
+--> structure of employee --> class
+--> properties --> empid, empname, address, email, phone, salary, pension, etc
+--> method --> display
+
+ 
+
+
+class
+object
+access modifiers(public, private)
+constructor
+constructor overloading
+encapsulation: properties should be private, method should be public
+this
+toString
+
+ 
+
+inheritance
+--> creating parent child relationship
+--> useful for reusability
+--> we get all properties from parent, we can modify behaviour from parent, can add new properties
+
+ 
+
+
+polymorphism
+--> ability to act in more than one form
+--> compile time polymorphism --> constructor/method overloading
+--> runtime polymorphism --> overriding methods from super class
+
+ 
+
+Object --> Employee --> (RegularEmployee, RetiredEmployee)
+
+ 
+
+abstraction
+--> it is for showing essentials details(interface) and hiding implementations(class)
+--> hiding --> security, privacy
+
+ 
+
+
+1. ui ( main method ) --> service    ====> for desktop application without db
+2. ui --> main method --> service --> dao --> db   ====> for desktop application with db
+
+ 
+
+3. ui --> controller --> service --> dao --> db   ====> for web based application with db
+4. ui --> controller --> service   ====> for web based application without db
+
+ 
+
+
+---------------------------------------------------------------------------------------------------------
+exception handling
+--> exception means unexpected problem
+--> dealing with unexpected problem is known as exception handling
+--> exception handling with 5 keywords: try, catch, finally, throw, throws
+--> java provides various classes to deal with exception
+--> if predefined classes are not enough for exception handling then we can go for custom exception
+
+ 
+
+--> Exception: these are runtime problem due to programming logic, exception are in the control of programmer
+--> Error: these are runtime problems due to runtime environment(power failure, low memory, network connectivity), errors are not in control of programmer
+
+ 
+
+
+unchecked--> if your program doesnot depends on external resources then kind of exception is known as unchecked exception
+checked--> if program depends external resources then kind of exception is known as checked exception
+
+ 
+
+resources: file, network, database, etc
+
+ 
+
+ 
+
+final --> keyword for creating constant 
+finally --> it is block which executed at the end of try catch
+finalize --> it is method for garbage collection
+
+
+
+[12:22 PM] Dadaram Manohar Jadhav
+    
+package com.cybage;
+
+
+import java.io.IOException;
+
+
+import com.cybage.exception.EmployeeException;
+import com.cybage.service.EmployeeService;
+import com.cybage.service.EmployeeServieImpl;
+
+
+public class UI {​​​​​​​
+    public static void main(String[] args) {​​​​​​​
+        System.out.println("employee demo...");
+        
+        EmployeeService empService = new EmployeeServieImpl();
+        
+        try {​​​​​​​
+            //add one regular employee
+            empService.add("reg101", "reg address", 123, "REG");            
+        }​​​​​​​catch(EmployeeException | IOException ee) {​​​​​​​
+            System.err.println(ee.getLocalizedMessage());
+        }​​​​​​​
+        
+        try {​​​​​​​
+            //add one retired employee
+            empService.add("ret102", "ret address", 789, "RET");            
+        }​​​​​​​catch(EmployeeException | IOException ee) {​​​​​​​
+            System.err.println(ee.getLocalizedMessage());
+        }​​​​​​​
+        
+        try {​​​​​​​
+            empService.displayAll();    
+        }​​​​​​​catch (EmployeeException | IOException ee) {​​​​​​​
+            System.err.println(ee.getLocalizedMessage());
+        }​​​​​​​
+    }​​​​​​​
+}​​​​​​​
+
+
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.dao;
+
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+
+import com.cybage.model.Employee;
+
+
+public interface EmployeeDao {​​​​​​​
+    public void add(Employee emp) throws IOException;
+    public void delete();
+    public void update();
+    public void display() throws IOException;
+}​​​​​​​
+ 
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.dao;
+
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+import com.cybage.model.Employee;
+
+
+public class EmployeeDaoImpl implements EmployeeDao {​​​​​​​
+    
+    FileWriter writer = null;
+    FileReader reader = null;
+    
+    @Override
+    public void add(Employee emp) throws IOException{​​​​​​​    
+        writer = new FileWriter("db.txt", true);
+        writer.write(emp.toString());
+        writer.close();
+    }​​​​​​​
+
+
+    @Override
+    public void delete() {​​​​​​​
+        // TODO Auto-generated method stub
+        
+    }​​​​​​​
+
+
+    @Override
+    public void update() {​​​​​​​
+        // TODO Auto-generated method stub
+        
+    }​​​​​​​
+
+
+    @Override
+    public void display() throws IOException {​​​​​​​
+        reader = new FileReader("db.txt");
+        int data;
+        while((data = reader.read()) != -1) {​​​​​​​
+            System.out.print((char)data);
+        }​​​​​​​
+        reader.close();
+    }​​​​​​​
+
+
+}​​​​​​​
+
+
+
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.exception;
+
+
+public class EmployeeException extends Exception{​​​​​​​
+    public EmployeeException(String msg) {​​​​​​​
+        super(msg);
+    }​​​​​​​
+}​​​​​​​
+ 
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.model;
+
+
+public abstract class Employee{​​​​​​​        //class which is incomplete
+    //properties, instance variables
+    private int id;
+    private String name;
+    private String address;
+    
+    
+    //constructor, constructor overloading
+    public Employee(){​​​​​​​
+        System.out.println("empty object created");
+        this.id = 0;
+        this.name = null;
+        this.address = null;
+    }​​​​​​​
+    public Employee(int id, String name, String address){​​​​​​​    //local variable
+        System.out.println("object with values created");
+        this.id = id;
+        this.name = name;
+        this.address = address;
+    }​​​​​​​
+    public int getId() {​​​​​​​
+        return this.id;
+    }​​​​​​​
+    public void setName(String name) {​​​​​​​
+        this.name = name;
+    }​​​​​​​
+    public String getName() {​​​​​​​
+        return this.name;
+    }​​​​​​​
+    public void setAddress(String address) {​​​​​​​
+        this.address = address;
+    }​​​​​​​
+    public String getAddress() {​​​​​​​
+        return this.address;
+    }​​​​​​​
+    
+    @Override
+    public String toString() {​​​​​​​
+return "Employee [id: "+ this.id+ ", name: "+ this.name + ",address: "+this.address+ "]";
+    }​​​​​​​
+    
+    public abstract int getCompensation();    //no definition
+}​​​​​​​
+ 
+
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.model;
+
+
+public class RegularEmployee extends Employee{​​​​​​​
+    //id, name, address will be inherited
+    private int salary;
+
+
+    public RegularEmployee() {​​​​​​​
+        super();
+    }​​​​​​​
+
+
+    public RegularEmployee(int id, String name, String address, int salary) {​​​​​​​
+        super(id, name, address);
+        this.salary = salary;
+    }​​​​​​​
+
+
+    public int getSalary() {​​​​​​​
+        return salary;
+    }​​​​​​​
+
+
+    public void setSalary(int salary) {​​​​​​​
+        this.salary = salary;
+    }​​​​​​​
+
+
+    @Override
+    public String toString() {​​​​​​​
+        return "RegularEmployee [salary=" + salary + ", getId()=" + getId() + ", getName()=" + getName()
+                + ", getAddress()=" + getAddress() + "]";
+    }​​​​​​​
+
+
+    @Override
+    public int getCompensation() {​​​​​​​
+        return this.salary;
+    }​​​​​​​
+    
+}​​​​​​​
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.model;
+
+
+public class RetiredEmployee extends Employee{​​​​​​​
+    //id, name, address inherited
+    private int pension;
+
+
+    public RetiredEmployee() {​​​​​​​
+        super();
+    }​​​​​​​
+
+
+    public RetiredEmployee(int id, String name, String address, int pension) {​​​​​​​
+        super(id, name, address);
+        this.pension = pension;        
+    }​​​​​​​
+
+
+    public int getPension() {​​​​​​​
+        return pension;
+    }​​​​​​​
+
+
+    public void setPension(int pension) {​​​​​​​
+        this.pension = pension;
+    }​​​​​​​
+
+
+    @Override
+    public String toString() {​​​​​​​
+        return "RetiredEmployee [pension=" + pension + ", getId()=" + getId() + ", getName()=" + getName()
+                + ", getAddress()=" + getAddress() + "]";
+    }​​​​​​​
+
+
+    @Override
+    public int getCompensation() {​​​​​​​
+        return this.pension;
+    }​​​​​​​    
+}​​​​​​​
+
+
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.service;
+
+
+import java.io.IOException;
+
+
+import com.cybage.exception.EmployeeException;
+import com.cybage.model.Employee;
+
+
+public interface EmployeeService {​​​​​​​
+    public abstract void add(String name, String address, int comp, String type) throws EmployeeException, IOException;
+    public abstract void displayAll() throws EmployeeException, IOException;
+    public abstract void displayComp();
+    public abstract void delete(int id);
+    public abstract void update(int id, Employee emp);
+    //update
+    //delete
+    //CRUD --> create , read, update, delete
+}​​​​​​​
+ 
+
+[12:23 PM] Dadaram Manohar Jadhav
+    
+package com.cybage.service;
+
+
+import java.io.IOException;
+
+
+import com.cybage.dao.EmployeeDao;
+import com.cybage.dao.EmployeeDaoImpl;
+import com.cybage.exception.EmployeeException;
+import com.cybage.model.Employee;
+import com.cybage.model.RegularEmployee;
+import com.cybage.model.RetiredEmployee;
+
+
+public class EmployeeServieImpl implements EmployeeService{​​​​​​​
+
+
+    private Employee emp[] = new Employee[10];
+    private static int count = 0;
+    
+    EmployeeDao empDao = new EmployeeDaoImpl();
+    
+    private int generateId() {​​​​​​​
+        return (int) (Math.round(Math.random()*100000));
+    }​​​​​​​
+    
+
+
+    @Override
+    public void add(String name, String address, int comp, String type) throws EmployeeException, IOException{​​​​​​​
+
+
+        if(name == null) {​​​​​​​
+            throw new EmployeeException("Cannot add employee as name is blank");
+        }​​​​​​​
+        if(address == null){​​​​​​​
+            throw new EmployeeException("Cannot add employee as address is blank");
+        }​​​​​​​    
+        if(comp <= 0) {​​​​​​​
+            throw new EmployeeException("Cannot add employee as comp is less than 0");
+        }​​​​​​​
+        
+        if(type.equals("REG")) {​​​​​​​
+            empDao.add(new RegularEmployee(generateId() , name, address, comp));
+        }​​​​​​​else if(type.equals("RET")){​​​​​​​
+            empDao.add(new RetiredEmployee( generateId(),  name, address, comp));
+        }​​​​​​​else {​​​​​​​
+            System.out.println("not able to add employee as type is invalid");
+        }​​​​​​​
+    }​​​​​​​
+
+
+    @Override
+    public void displayAll() throws EmployeeException, IOException{​​​​​​​
+        empDao.display();
+    }​​​​​​​
+
+
+    @Override
+    public void displayComp() {​​​​​​​
+        
+        for(Employee e : emp) {​​​​​​​
+            if(e == null) break;
+            System.out.println("Id: " + e.getId() +" comp: " + e.getCompensation());
+        }​​​​​​​
+    }​​​​​​​
+
+
+    @Override
+    public void delete(int id) {​​​​​​​
+
+
+    }​​​​​​​
+
+
+    @Override
+    public void update(int id, Employee emp) {​​​​​​​
+
+
+    }​​​​​​​
+}​​​​​​​
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

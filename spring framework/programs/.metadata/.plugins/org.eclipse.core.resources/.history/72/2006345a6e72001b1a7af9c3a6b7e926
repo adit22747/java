@@ -1,0 +1,14 @@
+package com.example;
+
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class ExceptionHandler {
+	
+	@ExceptionHandler
+	public String handleException(Exception e) {
+		return "something going wrong" + e.getLocalizedMessage();
+	}
+
+}

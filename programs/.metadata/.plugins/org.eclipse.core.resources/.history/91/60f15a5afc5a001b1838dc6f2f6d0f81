@@ -1,8 +1,0 @@
-package com.cybage.threading;
-
-public class Deployment extends Thread {
-	@Override
-	public void run() {
-		System.out.println("3. i am delpoying");
-	}
-}
